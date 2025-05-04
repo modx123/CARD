@@ -1,0 +1,118 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mohammed Hussien - كارت شخصي</title>
+  <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Almarai', sans-serif;
+      background: linear-gradient(135deg, #e3f2fd, #ffffff);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 40px 20px;
+      min-height: 100vh;
+    }
+
+    .card {
+      background: white;
+      max-width: 400px;
+      width: 100%;
+      border-radius: 20px;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      text-align: center;
+      padding: 30px 20px;
+    }
+
+    h1 {
+      font-size: 30px;
+      color: #0077ff;
+      margin-bottom: 10px;
+    }
+
+    p {
+      color: #555;
+      margin-bottom: 25px;
+      font-size: 16px;
+    }
+
+    .btn {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 10px;
+      margin: 10px 0;
+      padding: 12px 16px;
+      border: none;
+      border-radius: 12px;
+      color: white;
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: bold;
+      transition: transform 0.2s;
+    }
+
+    .btn svg {
+      width: 24px;
+      height: 24px;
+      flex-shrink: 0;
+    }
+
+    .btn:hover {
+      transform: scale(1.02);
+    }
+
+    .facebook { background: #1877f2; }
+    .instagram { background: #e1306c; }
+    .whatsapp { background: #25d366; }
+    .telegram { background: #0088cc; }
+    .phone { background: #4caf50; }
+
+    @media (max-width: 480px) {
+      .card {
+        padding: 20px 15px;
+      }
+      .btn {
+        font-size: 14px;
+        padding: 10px 14px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Mohammed Hussien</h1>
+    <p>تابعني على السوشيال ميديا أو تواصل معايا</p>
+
+    <a class="btn facebook" href="https://www.facebook.com/modx123" target="_blank">
+      <svg fill="white" viewBox="0 0 24 24"><path d="M22 12a10 10 0 10-11.5 9.87v-7H8v-3h2.5V9a3.5 3.5 0 013.75-3.5h2.25v3H15c-.83 0-1.5.67-1.5 1.5v2h3l-.5 3h-2.5v7A10 10 0 0022 12z"/></svg>
+      فيسبوك
+    </a>
+
+    <a class="btn instagram" href="https://www.instagram.com/mohamed.hussien_priv/?next=%2F" target="_blank">
+      <svg fill="white" viewBox="0 0 24 24"><path d="M7 2C4.243 2 2 4.243 2 7v10c0 2.757 2.243 5 5 5h10c2.757 0 5-2.243 5-5V7c0-2.757-2.243-5-5-5H7zm0 2h10c1.654 0 3 1.346 3 3v10c0 1.654-1.346 3-3 3H7c-1.654 0-3-1.346-3-3V7c0-1.654 1.346-3 3-3zm5 3a5 5 0 100 10 5 5 0 000-10zm0 2a3 3 0 110 6 3 3 0 010-6zm5.5-.75a1.25 1.25 0 11-2.5 0 1.25 1.25 0 012.5 0z"/></svg>
+      إنستجرام
+    </a>
+
+    <a class="btn whatsapp" href="https://wa.me/201013814824" target="_blank">
+      <svg fill="white" viewBox="0 0 24 24"><path d="M20.5 3.5A11.7 11.7 0 0012 1a11 11 0 00-9.6 16.2L1 23l6.1-1.6A11 11 0 0012 23a11 11 0 0011-11c0-2.9-1.2-5.6-3.5-7.5zm-8.5 17a9.6 9.6 0 01-4.9-1.3l-.4-.2-3.6.9.9-3.5-.3-.4a9.4 9.4 0 1116.7-5.8 9.4 9.4 0 01-8.4 10.3zm5.4-7.2l-1.8-.9c-.2-.1-.4-.1-.6 0l-.5.6c-.1.2-.3.2-.5.1a7.2 7.2 0 01-3.5-3.5c-.1-.2-.1-.4.1-.5l.6-.5c.1-.2.2-.4 0-.6l-.9-1.8c-.2-.4-.6-.5-1-.4a1.8 1.8 0 00-1.3 1.2c-.6 1.6.3 3.6 2.4 5.7 1.9 1.9 4.3 2.9 5.6 2.9.3 0 .6 0 .8-.1a1.8 1.8 0 001.2-1.3c.1-.4 0-.8-.4-1z"/></svg>
+      واتساب
+    </a>
+
+    <a class="btn telegram" href="https://t.me/modx123" target="_blank">
+      <svg fill="white" viewBox="0 0 24 24"><path d="M9.02 17.6l-.39 3.66c.56 0 .8-.24 1.1-.53l2.65-2.53 5.51 4.03c1.01.55 1.74.26 2-.94l3.63-17.02h.01c.34-1.62-.58-2.24-1.58-1.85L2.36 9.3c-1.54.62-1.53 1.5-.28 1.89l4.8 1.5L18.2 5.98c.46-.28.87-.12.53.18"/></svg>
+      تيليجرام
+    </a>
+
+    <a class="btn phone" href="tel:+201013814824">
+      <svg fill="white" viewBox="0 0 24 24"><path d="M6.6 10.8a15.1 15.1 0 006.6 6.6l2.2-2.2a1 1 0 011-.2c1.1.4 2.3.7 3.5.7a1 1 0 011 1V21a1 1 0 01-1 1A17 17 0 013 5a1 1 0 011-1h3.1a1 1 0 011 1c0 1.2.3 2.4.7 3.5a1 1 0 01-.2 1l-2.1 2.3z"/></svg>
+      اتصل بي
+    </a>
+  </div>
+</body>
+</html>
